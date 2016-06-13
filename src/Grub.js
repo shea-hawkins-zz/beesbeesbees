@@ -2,7 +2,8 @@ var Grub = function() {
   this.age = 0;
   this.color = 'pink';
   this.food = 'jelly';
-  this.eat = function() {
-    return 'omnomnom';
-  };
+};
+
+Grub.prototype.eat = function() {
+  return 'omnomnom'
 };
