@@ -3,3 +3,5 @@ var Bee = function() {
   this.yellow = 'yellow';
   this.job = 'keep on growing';
 };
+
+Bee.prototype = new Grub();
